@@ -3,10 +3,10 @@
   "author": "David Holloway <davidh@slugworth.com>",
   "main": "./lib/main",
   "version": "0.10.0",
-  "description": "Yet another package for running pipe tools. Currently: pipe selection support.",
+  "description": "Yet another package for running shell tools.",
   "keywords": [
     "pipe",
-    "shell",
+    "shell"
   ],
   "repository": "https://github.com/dhollowa/pipe-utils",
   "license": "MIT",
@@ -18,9 +18,9 @@
   "configSchema": {
     "pipeExecutable": {
       "title": "The pipe executable.",
-      "description": "TESTING ONLY: First cut just hard codes the command.",
+      "description": "HACK HACK HACK TODO(dhollowa): Remove once UI is in place.",
       "type": "string",
-      "default": "md_date"
+      "default": "date"
     }
   }
 }

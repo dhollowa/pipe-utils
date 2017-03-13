@@ -1,3 +1,5 @@
+DO NOT USE - Under construction.
+
 This package allows Unix commands to be invoked on selections.
 
 Currently only pipe-selection is supported. More to come...
