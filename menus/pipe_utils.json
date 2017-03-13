@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Pipe Utilities : Pipe Selection",
+        "command": "pipe-utils:pipe-selection"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Pipe Utilities",
+          "submenu": [
+            {
+              "label": "Pipe Selection",
+              "command": "pipe-utils:pipe-selection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

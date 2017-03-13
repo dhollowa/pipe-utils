@@ -1,0 +1,26 @@
+{
+  "name": "pipe-utils",
+  "author": "David Holloway <davidh@slugworth.com>",
+  "main": "./lib/main",
+  "version": "0.10.0",
+  "description": "Yet another package for running pipe tools. Currently: pipe selection support.",
+  "keywords": [
+    "pipe",
+    "shell",
+  ],
+  "repository": "https://github.com/dhollowa/pipe-utils",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "pipeExecutable": {
+      "title": "The pipe executable.",
+      "description": "TESTING ONLY: First cut just hard codes the command.",
+      "type": "string",
+      "default": "md_date"
+    }
+  }
+}
