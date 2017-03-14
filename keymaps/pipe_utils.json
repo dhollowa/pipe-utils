@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-|": "pipe-utils:pipe-selection"
+    "ctrl-|": "pipe-utils:show"
   }
 }
