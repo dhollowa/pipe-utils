@@ -2,8 +2,8 @@
   "name": "pipe-utils",
   "author": "David Holloway <davidh@slugworth.com>",
   "main": "./lib/main",
-  "version": "0.10.0",
-  "description": "Yet another package for running shell tools.",
+  "version": "0.0.0",
+  "description": "Yet another package for running shell tools over selected text.",
   "keywords": [
     "pipe",
     "shell"
@@ -18,10 +18,10 @@
   },
   "configSchema": {
     "pipeExecutable": {
-      "title": "The pipe executable.",
-      "description": "HACK HACK HACK TODO(dhollowa): Remove once UI is in place.",
+      "title": "Default pipe executable.",
+      "description": "The default shell command for quick access.",
       "type": "string",
-      "default": "date"
+      "default": "sort"
     }
   }
 }

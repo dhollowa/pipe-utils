@@ -1,11 +1,7 @@
-This package allows Unix commands to be invoked on selections.
-
-Currently only pipe-selection is supported. More to come...
+This package allows shell commands to be invoked on selections. The selection is piped in to the
+command's stdin, and the selection is replaced by the resulting stdout.
 
 TODO:
-  - [x] pipe selected regions
-  - [x] fix bug with multi-selection state
-  - [x] add better error reporting with stderr displayed as alert
   - [ ] add history support
   - [ ] config for personal favorites (pinned history)
   - [ ] add tests
