@@ -18,7 +18,7 @@
   },
   "configSchema": {
     "pipeExecutable": {
-      "title": "Default pipe executable.",
+      "title": "Default shell command.",
       "description": "The default shell command for quick access.",
       "type": "string",
       "default": "sort"
