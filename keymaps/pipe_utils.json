@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
-    "ctrl-|": "pipe-utils:show"
+  "atom-text-editor:not([mini])": {
+    "ctrl-c |": "pipe-utils:show"
   }
 }
